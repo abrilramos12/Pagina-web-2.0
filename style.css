@@ -1,3 +1,4 @@
+
 header{
 background-color: rgb(106, 158, 106);
 }
@@ -15,7 +16,13 @@ nav{
     top: 50px;
     right: 0px;
     left: 700px;
+
 }
+nav a:hover{
+    color: #c78c19;
+}
+
+
 nav li{
     display: inline;
     margin: 0 0 0  20px;
@@ -54,11 +61,15 @@ nav a{
 /*Producto*/
 
 .Productos{
-    width: 500px;
+    width: 940px;
     display: flex; /*display  flex viene acompañado de justify-content y align-items*/
+    
     justify-content:space-between;
     align-items: center; 
     position: relative;
+    
+    
+    
 }
     
 
@@ -66,10 +77,30 @@ nav a{
 .Imagenes_Productos{
     width: 200px;
     display: inline-block;
+    margin: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;    
 }
 
 
+.Descripción_parrafos{
+    text-align: center;
+}
+
+.lista_productos{
+    border: 2px solid rgb(61, 51, 48);
+    margin: 20px;
+}
+
+.lista_productos:active{
+    border-color: #c78c19;
+}
 /*CONSULTAS*/
 
 
 /*SERVICIOS*/
+
+
+.copiright{
+    font-size: 13px;
+}
