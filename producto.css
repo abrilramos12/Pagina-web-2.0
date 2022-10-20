@@ -1,0 +1,44 @@
+
+.Productos{
+    width: 940px;
+    display: flex; /*display  flex viene acompañado de justify-content y align-items*/
+    justify-content:space-between;
+    align-items: center; 
+    position: relative;
+   
+}  
+    
+
+.Imagenes_Productos{
+    width: 200px;
+    display: inline-block;
+    margin: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;    
+}
+
+
+.Descripción_parrafos{
+    text-align: center;
+}
+.ListaPlantas_exterior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.ListadePlantas_interior,.ListaPlantas_exterior{
+    border: 2px solid rgb(61, 51, 48);
+    margin: 20px;
+    cursor: pointer;
+   
+}
+
+:active{
+    border-color: #c78c19;
+}
+
+
+
+
+

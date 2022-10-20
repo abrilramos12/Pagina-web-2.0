@@ -1,6 +1,6 @@
 
 header{
-background-color: rgb(106, 158, 106);
+background-color: rgb(68,157,3)
 }
 /*.caja{
     position: relative;
@@ -58,48 +58,16 @@ nav a{
   
 }
 
-/*Producto*/
-
-.Productos{
-    width: 940px;
-    display: flex; /*display  flex viene acompañado de justify-content y align-items*/
-    
-    justify-content:space-between;
-    align-items: center; 
-    position: relative;
-    
-    
-    
-}
-    
 
 
-.Imagenes_Productos{
-    width: 200px;
-    display: inline-block;
-    margin: 40px;
-    box-sizing: border-box;
-    border-radius: 10px;    
-}
 
-
-.Descripción_parrafos{
-    text-align: center;
-}
-
-.lista_productos{
-    border: 2px solid rgb(61, 51, 48);
-    margin: 20px;
-}
-
-.lista_productos:active{
-    border-color: #c78c19;
-}
-/*CONSULTAS*/
 
 
 /*SERVICIOS*/
-
+.tabla_dehorario{
+    border-color: black;
+    border-radius:10px
+}
 
 .copiright{
     font-size: 13px;

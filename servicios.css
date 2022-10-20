@@ -1,0 +1,23 @@
+.input-padron{
+    display: block;
+    margin: 0px 0px 30px;
+    padding: 15px 50px;
+}
+
+.enviar{
+    background-color: #c78c19;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+.enviar:hover{
+    
+    transform: scale(1.2);
+    
+}

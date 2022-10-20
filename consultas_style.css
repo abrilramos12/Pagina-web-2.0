@@ -1,0 +1,53 @@
+
+#img_logo_header{
+    width: 150px;
+    margin: 50px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0px 0px 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0px 0px 20px;
+    padding: 15px 50px;
+}
+
+form{
+    margin: 40px 0px;
+    width: 50%;
+}
+    
+#checkbox{
+    margin: 20px 0px;
+}
+
+.formadecontacto{
+    display: block;
+}
+.enviar{
+    background-color: #c78c19;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+.enviar:hover{
+    
+    transform: scale(1.2);
+    
+}
+
