@@ -4,39 +4,57 @@
     display: flex; /*display  flex viene acompañado de justify-content y align-items*/
     justify-content:space-between;
     align-items: center; 
-    position: relative;
+    /*position: relative;*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    margin: 0px 10px 15px 15px;
+    text-align: justify;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+
    
 }  
-    
+  .titulos_plantas{
+    text-align: center;
+    margin-left: 20px;
+  }  
 
 .Imagenes_Productos{
     width: 200px;
     display: inline-block;
     margin: 40px;
-    box-sizing: border-box;
+   box-sizing: border-box;
     border-radius: 10px;    
+    align-items: center;
 }
 
+.boton-comprar{
+
+}
 
 .Descripción_parrafos{
     text-align: center;
+    align-items: center;
 }
 .ListaPlantas_exterior{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+   
 }
 .ListadePlantas_interior,.ListaPlantas_exterior{
-    border: 2px solid rgb(61, 51, 48);
+    border: 5px solid rgb(61, 51, 48);
     margin: 20px;
     cursor: pointer;
+    border-radius: 10px;
    
 }
 
 :active{
     border-color: #c78c19;
 }
+
+
+
 
 
 

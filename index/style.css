@@ -71,4 +71,11 @@ nav a{
 
 .copiright{
     font-size: 13px;
+   display: flex;
+   justify-content:flex-end;
 }
+
+#pie-de-pagina{
+    background-color: rgb(236, 245, 233);
+}
+
